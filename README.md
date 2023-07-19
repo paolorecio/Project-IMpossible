@@ -1,6 +1,7 @@
-# Project-IMpossible
+# Project IMpossible.exe
 ### Final Project for Information Management
-#### Members
-- Charles Andre Bandala
-- John Franky Batisla-Ong
-- Paolo Recio
+This is a simple E-Sports Management Application for Teams, Coaches, and Players alike.
+#### Contributors
+- CAB
+- JFBO
+- PR
