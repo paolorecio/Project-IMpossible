@@ -1,1 +1,4 @@
-print('E-Sports Manager')
+from interface.Menus import *
+
+
+current_interface = MainMenu.display()
