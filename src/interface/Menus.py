@@ -70,7 +70,11 @@ class MainMenu():
         # clear the screen
         os.system('cls')
 
-        print("\n\tThank you for using *insert app name*!")
+        print("\n\tExiting", end="")
+        for i in range(5):
+            print(".", end="")
+            time.sleep(2)
+
         
 # class for the Register Menu
 class RegisterMenu():
