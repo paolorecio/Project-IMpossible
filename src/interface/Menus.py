@@ -13,16 +13,16 @@ class MainMenu():
         # clear the screen
         os.system('cls')
         
-        # print text in the console
-        print(f'\n\t╔══════════════════════════════════════════╗')
-        print(f"\t║     | - PCJ E-Sports Team Tracker - |    ║")
-        print(f'\t╚══════════════════════════════════════════╝')
-        print(f"\n\n\n\tWhat do you want to do?")
-        print(f"\t[" + Colors.blue + "1" + Colors.def_color + "] Register")
-        print(f"\t[" + Colors.blue + "2" + Colors.def_color + "] View/Edit")
-        print(f"\t[" + Colors.blue + "3" + Colors.def_color + "] Exit\n\n")
-        
         while state:
+        # print text in the console
+            print(f'\n\t╔══════════════════════════════════════════╗')
+            print(f"\t║     | - PCJ E-Sports Team Tracker - |    ║")
+            print(f'\t╚══════════════════════════════════════════╝')
+            print(f"\n\n\n\tWhat do you want to do?")
+            print(f"\t[" + Colors.blue + "1" + Colors.def_color + "] Register")
+            print(f"\t[" + Colors.blue + "2" + Colors.def_color + "] View/Edit")
+            print(f"\t[" + Colors.blue + "3" + Colors.def_color + "] Exit\n\n")
+            
             user_input = int(input("\t>  "))
             
             if user_input == 1:
@@ -35,7 +35,7 @@ class MainMenu():
                 state = False
                 retval = MainMenu.exit_prompt()
             else:
-                print('\tInvalid Input! Please Try again.')
+                print('\tInvalid choice. Please try again.')
                 time.sleep(2)
                 state = False
                 return MainMenu.display()
@@ -47,11 +47,12 @@ class MainMenu():
         # clear the screen
         os.system('cls')
 
-        print("\n\tDo you really want to exit?")
-        print("\n\n\n\t[1] Yes")
-        print("\t[2] No")
-
         while state:
+            print("\n\tDo you really want to exit?")
+            print("\n\n\n\t[1] Yes")
+            print("\t[2] No")
+
+            
             user_input = int(input("\n\tInput your choice here\t: "))
             if user_input == 1:
                 state = False
@@ -60,7 +61,7 @@ class MainMenu():
                 state = False
                 return MainMenu.display()
             else:
-                print('\tInvalid Input! Please Try again.')
+                print('\tInvalid choice. Please try again.')
                 time.sleep(2)
                 state = False
                 return MainMenu.display()
@@ -70,12 +71,12 @@ class MainMenu():
         # clear the screen
         os.system('cls')
 
+        print("\n\tThank you for using *insert app name*!")
         print("\n\tExiting", end="")
-        for i in range(5):
+        for i in range(3):
             print(".", end="")
-            time.sleep(2)
+            time.sleep(1)
 
-        
 # class for the Register Menu
 class RegisterMenu():
     def display():
