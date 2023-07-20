@@ -4,4 +4,4 @@ This is a simple E-Sports Management Application for Teams, Coaches, and Players
 #### Contributors
 - CACB
 - JFBO
-- PR
+- PLGR
