@@ -1,0 +1,17 @@
+class Colors():
+    def_color = '\x1b[0m'
+    red = '\x1b[0;31;40m'
+    green = '\x1b[0;32;40m'
+    yellow = '\x1b[0;33;40m'
+    blue = '\x1b[0;34;40m'
+    gray = '\x1b[0;35;40m'
+    lime = '\x1b[0;36;40m'
+    dawn = '\x1b[0;37;40m'
+
+    red_bold = '\x1b[1;31;40m'
+    green_bold = '\x1b[1;32;40m'
+    yellow_bold = '\x1b[1;33;40m'
+    blue_bold = '\x1b[1;34;40m'
+    gray_bold = '\x1b[1;35;40m'
+    lime_bold = '\x1b[1;36;40m'
+    dawn_bold = '\x1b[1;37;40m'
